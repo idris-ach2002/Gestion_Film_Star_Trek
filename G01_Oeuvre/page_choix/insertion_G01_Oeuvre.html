@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page D'enregistrement</title>
+</head>
+<body>
+    <form action="inserer_G01_Oeuvre.php" method="post">
+
+        <h1>Renseignement d'information</h1>
+
+        <table border="2" cellpadding="10" cellspacing="5">
+
+            <tr> <th>Nom_Oeuvre</th>  <th> <input type="text" name="nom" size="10" required/> </th></tr>
+            <tr>
+                <th>Type_Oeuvre</th>
+                <th>FILM <input type="radio" name="type" value="FILM" checked="checked"/> </th> 
+                <th>SERIE <input type="radio" name="type" value="SERIE" /> </th>
+            </tr>
+
+            <tr>  <th>Date_De_Sortie_Oeuvre</th>  <th><input type="date" name="date_sortie" size="10" required/> </th> </tr>
+
+            <tr> 
+                <th> <input type="submit" name="login" value="valider"/> </th> 
+                <th> <input type="reset" name="logout" value="réinitialiser"/> </th>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>

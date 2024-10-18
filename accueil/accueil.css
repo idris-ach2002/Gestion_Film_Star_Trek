@@ -1,0 +1,92 @@
+
+  body {
+  background-color: white;
+  color: black;
+  }
+
+  body:hover {
+  background-color: black;
+  transition: 1s;
+  color: white;
+  }
+
+  p {
+  font-size: 2em;
+  font-weight: 800;
+  }
+
+  p:hover {
+  color: #000000;
+  text-decoration: underline;
+  text-transform: capitalize;
+  letter-spacing: 3px;
+  transition: 0.5s;
+  }
+
+  h1 {
+  color: gray;
+  text-align: center;
+  }
+
+  h1:hover {
+  color: aquamarine;
+  transition: 1s;
+  font-size: 2.5em;
+  letter-spacing: 20px;
+  }
+
+  table:hover {
+  box-shadow: 5px 5px 40px 30px rgba(255, 255, 255, 0.753);
+  border-radius: 40px;
+  border: solid 10px white ;
+  transition:1s;
+  }
+
+  table {
+  border: solid 10px white ;
+  margin: auto;
+  width: 800px;
+  height: 800px;
+  caption-side:top;
+  }
+
+  caption {
+  color: rgb(3, 255, 116);
+  font-size: 2em;
+  }
+
+  th {
+  border: solid 2px rgb(0, 0, 0) ;
+  border-radius: 40px;
+  }
+
+  th:hover {
+  background-color: rgba(247, 246, 244, 0.288);
+  border: solid 3px rgb(255, 255, 255);
+  transition: 1s;
+  }
+
+  caption:hover {
+  color: rgb(253, 168, 64);
+  letter-spacing: 20px;
+  transition: 0.7s;
+  }
+
+  input[type="submit"],input[type="reset"] {
+  border: ridge 5px aqua;
+  padding: 15px;
+  font-size: 1em;
+  }
+
+  input[type="submit"]:hover,input[type="reset"]:hover {
+  color: white;
+  border-radius: 15px;
+  background-color:rgb(0,0,0);
+  transition: 0.5s;
+  }
+
+  /* Animation lorsqu'on sélectionne le bouton */
+  input[type="radio"] {
+  transform: scale(2.2); /* agrandir le bouton */
+  pointer:cursor;
+  }
